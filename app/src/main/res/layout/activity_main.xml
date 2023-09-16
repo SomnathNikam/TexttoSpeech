@@ -6,13 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <EditText
+        android:id="@+id/etmultitext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your text here..."
+        android:inputType="textMultiLine"
+        android:lines="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/btnspeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

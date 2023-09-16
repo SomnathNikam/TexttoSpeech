@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.asuper'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.asuper"
@@ -29,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures{
+        viewBinding=true
     }
 }
 
