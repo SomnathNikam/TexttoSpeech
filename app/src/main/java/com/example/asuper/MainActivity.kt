@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private lateinit var binding: ActivityMainBinding
+
     lateinit var tts:TextToSpeech
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             tts = TextToSpeech(this, TextToSpeech.OnInitListener {
                 if (it == TextToSpeech.SUCCESS){
                     tts.language = Locale.US
-                    tts.setSpeechRate(1.0f)
+                    tts.setSpeechRate(0.0f)
                     tts.speak(binding.etmultitext.text.toString(),TextToSpeech.QUEUE_ADD,null)
                 }
             })
