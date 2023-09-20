@@ -12,4 +12,5 @@ An Android app to convert text into speech. Its a small project just created for
 
 https://github.com/SomnathNikam/TexttoSpeech/assets/117519166/2eddafca-df13-4ec6-a3d8-b70b05c532be
 
-
+# Installation
+Download the project either by git clone or download and extract the zip, then load the project in your android studio. You are free to do the modifications as your wish, You can even directly try app by installing in your phone, the apk file is in "Apk releases" folder, or you can get it by <a href ="https://github.com/SomnathNikam/TexttoSpeech/tree/master/Apk%20releases">clicking here</a>.
